@@ -1,0 +1,17 @@
+*.vcxproj
+*.filters
+cmake_install.cmake
+*.stamp
+*.depend
+/out
+/CMakeFiles/**
+**/CMakeFiles
+**/Debug
+**/x64
+*.dir
+*.idb
+*.pdb
+*.cmake
+**/_deps
+/Testing
+dependencies**
