@@ -1,6 +1,4 @@
-Zpět na [úvod](../../README.md)
-
-## BacktestingLib Specification and Documentation
+# BacktestingLib
 Knihovna pro backtesting obchodních robotů. Umožňuje testovat vlastní obchodní strategie na reálných historických datech a vliv různých jejich parametrů na výsledný zisk.
 
 Při hledání nejlepších parametrů pro obchodního robota dosahuje, díky využití standardních paralelních C++ algoritmů - [std::transform_reduce](https://en.cppreference.com/w/cpp/algorithm/transform_reduce), dosahuje na stroji s 12 jádry faktoru zrychlení 7. To umožňuje rychleji testovat velké množství kombinací.
